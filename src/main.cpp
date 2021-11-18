@@ -27,7 +27,7 @@ void loop() {
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-LiquidCrystal_I2C lcd(0x27,20,4);  //the lcd address is obtained from the getDirection script, in this case 0x3F, 16 colums, 2 rows
+LiquidCrystal_I2C lcd(0x27,20,4);  //the lcd address is obtained from the getDirection script, in this case 0x27, 20 colums, 4 rows
 
 void setup() {
   // Initialize LCD
